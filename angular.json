@@ -91,7 +91,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/typed.js@2.0.12/dist/typed.min.js"
+            ]
           }
         }
       }
