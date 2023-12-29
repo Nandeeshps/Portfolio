@@ -1,0 +1,45 @@
+#Skills{
+    padding: 30px 0;
+    margin-bottom: 130px;
+    margin-top: 85px;
+    }  
+    #Skills .container{
+        bottom: 20px;
+    }
+
+   #Skills .container .sub-title{
+        font-size: 60px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    #Skills .container .web-skills{
+        display: flex;
+  flex-wrap: wrap;
+    }
+    #Skills .container .web-skills .content{
+        width: calc(33.33% - 20px); /* 20px is the total margin space between the boxes */
+        margin: 10px; /* Adjust margin as needed */
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.835);
+    }
+    
+    #Skills .container .web-skills .content .image-container {
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  #Skills .container .web-skills .content .image-container img {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  .progress {
+    height: 15px; 
+    background-color: crimson;
+  }
+  
