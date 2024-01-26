@@ -1,0 +1,23 @@
+nav{
+   display: flex;
+   align-items: center;
+   width: 80vw;
+   justify-content: space-between;
+   padding: 10px 10%;
+   background: rgba(0, 0, 0, 0.89);
+   position: fixed;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav .container li{
+    list-style: none;
+    font-size: 25px;
+    color: #fff; 
+}
+nav .container li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
